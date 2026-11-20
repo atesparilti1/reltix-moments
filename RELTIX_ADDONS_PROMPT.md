@@ -73,7 +73,7 @@ Add Turkish, Arabic, Polish and Ukrainian residents to the seed data (common in 
 
 ## STRETCH
 
-- **Email channel via n8n:** outbound emails and inbound replies → `POST /agent/inbound`; render emails in the UI. Plus an n8n workflow acting as an external partner that auto-accepts after 5 seconds.
+- **Email channel:** outbound emails (SMTP to a test inbox) and inbound replies → `POST /agent/inbound`, built directly in the Python backend; render emails in the UI.
 - **MCP server (`moments-mcp`):** tools such as `list_opportunities`, `get_handover`, `update_status` and `attach_document`, scoped by partner API key and limited to manifest-declared fields, so a partner's own AI agent can plug into centrix through the same standard.
 - **Live tracking** for residents: scheduled → technician en route → done.
 
