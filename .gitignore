@@ -1,0 +1,20 @@
+# Other hackathon challenge (Sourcera), kept out of this repo
+BUILD_PROMPT.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+*.sqlite
+
+# Node
+node_modules/
+dist/
+
+# Secrets and local files
+.env
+.env.*
+!.env.example
+.DS_Store
