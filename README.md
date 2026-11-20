@@ -17,7 +17,7 @@ It detects the moment a resident needs a service (move-in, repair, move-out), pr
 ## Setup
 
 1. Clone the repo.
-2. Copy `.env.example` to `.env` and fill in the API keys. Get the keys from the team privately (never in the repo, issues or commits).
+2. Copy `.env.example` to `.env` and fill in **your own** OpenAI and ElevenLabs API keys. Everyone uses their own keys: never share or commit them.
 3. `.env` is gitignored, so your keys stay on your machine.
 
 If a key is ever committed by accident, revoke it immediately in the OpenAI or ElevenLabs dashboard and create a new one.
