@@ -13,3 +13,11 @@ It detects the moment a resident needs a service (move-in, repair, move-out), pr
 
 - **A. Working demo:** event → resident → partner → result
 - **B. Connector spec:** the next partner plugs in the same way (`spec/`)
+
+## Setup
+
+1. Clone the repo.
+2. Copy `.env.example` to `.env` and fill in the API keys. Get the keys from the team privately (never in the repo, issues or commits).
+3. `.env` is gitignored, so your keys stay on your machine.
+
+If a key is ever committed by accident, revoke it immediately in the OpenAI or ElevenLabs dashboard and create a new one.
